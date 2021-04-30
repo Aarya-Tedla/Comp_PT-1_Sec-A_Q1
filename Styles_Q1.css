@@ -1,0 +1,40 @@
+body{
+  background-image: url('ipl_Background_img.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+    }
+td {
+  text-align: center;
+  font-weight: bold;
+  font-size:20px
+
+
+}
+table,td,th{
+  border-collapse: collapse;
+  border: 2px solid white;
+}
+th{
+  background: #eeebdd;
+  color: black;
+  font-size:35px
+}
+tr:nth-child(odd) {
+background: #0061a8;
+color: white;
+}
+tr:nth-child(even) {
+background: #eeeeee;
+color: #0061a8;
+}
+th, td {
+  padding: 13px;
+}
+caption{
+  color: #51c4d3;
+  background: #0061a8;
+  font-size: 25px;
+  font-weight: bold;
+
+}
